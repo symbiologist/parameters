@@ -10,5 +10,5 @@ file.copy(from = list.files(source_plots, full.names = TRUE),
           overwrite = TRUE)
 
 ## Add image to googlesheets
-# =image(concatenate("https://raw.githubusercontent.com/symbiologist/parameters/main/projects/meninges_clustering/plots/", A2, ".png"))
+# =image(concatenate("https://raw.githubusercontent.com/symbiologist/parameters/main/projects/meninges_markers/plots/", A2, ".png"))
 
