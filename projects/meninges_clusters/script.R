@@ -29,5 +29,5 @@ parameters <- read_tsv(file.path(current_dir, 'parameters.tsv'))
 write_sheet(parameters, ss = ss, sheet = 'umap')
 
 ## Add image to googlesheets
-# =image(concatenate("https://raw.githubusercontent.com/symbiologist/parameters/main/projects/meninges_clustering/plots/", A2, ".png"))
+# =image(concatenate("https://raw.githubusercontent.com/symbiologist/parameters/main/projects/meninges_clusters/plots/", A2, ".png"))
 
